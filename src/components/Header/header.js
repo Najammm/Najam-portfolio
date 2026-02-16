@@ -42,7 +42,7 @@ function Header() {
               scrolled ? styles.scrolledNav : ""
             } bg-body-tertiary mb-3`}
           >
-            <Container fluid className="myContainer" style={{ padding: "0 " }}>
+            <Container fluid className="myContainer" style={{ padding: "0" }}>
               <Navbar.Brand className={styles.logo} href="#">
                 Najam
                 <span>

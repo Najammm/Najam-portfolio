@@ -44,7 +44,11 @@ function About() {
             sm={10}
             className={styles.sections}
           >
-            <Image style={{ width: "5rem", height: "5rem" }} src={One} />
+            <Image
+              style={{ width: "5rem", height: "5rem" }}
+              src={One}
+              alt="Web Developer"
+            />
             <span className={styles.section_text}>Web Developer</span>
           </Col>
           <Col
@@ -56,7 +60,11 @@ function About() {
             sm={10}
             className={styles.sections}
           >
-            <Image style={{ width: "5rem", height: "5rem" }} src={Two} />
+            <Image
+              style={{ width: "5rem", height: "5rem" }}
+              src={Two}
+              alt="Database Engineer"
+            />
             <span className={styles.section_text}>Database Engineer</span>
           </Col>
           <Col
@@ -68,7 +76,11 @@ function About() {
             sm={10}
             className={styles.sections}
           >
-            <Image style={{ width: "5rem", height: "5rem" }} src={Three} />
+            <Image
+              style={{ width: "5rem", height: "5rem" }}
+              src={Three}
+              alt="Backend Developer"
+            />
             <span className={styles.section_text}>Backend Developer</span>
           </Col>
           <Col
@@ -80,7 +92,11 @@ function About() {
             sm={10}
             className={styles.sections}
           >
-            <Image style={{ width: "5rem", height: "5rem" }} src={Four} />
+            <Image
+              style={{ width: "5rem", height: "5rem" }}
+              src={Four}
+              alt="Dev Ops"
+            />
             <span className={styles.section_text}>Dev Ops</span>
           </Col>
         </Row>

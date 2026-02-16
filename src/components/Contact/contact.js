@@ -25,7 +25,11 @@ function Contact() {
           xl={11}
           lg={12}
         >
-          <Image src={contactImg} style={{ widows: "100%", height: "auto" }} />
+          <Image
+            src={contactImg}
+            alt="Contact"
+            style={{ width: "100%", height: "auto" }}
+          />
         </Col>
         <Col
           data-aos="fade-left"

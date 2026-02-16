@@ -42,33 +42,37 @@ function Testimonial() {
         {/* testimonial */}
 
         <Row className={styles.testimonial_section}>
-          {testimonials.map((testimonial) => (
-            <>
-              <Col xl={7} lg={7} className={styles.testimonial_single}>
-                <p className={styles.testimonial_icon}></p>
-                <p className={styles.description}>{testimonial.description}</p>
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                  }}
-                >
-                  <div>
-                    <span className={styles.name}>{testimonial.name}</span>
-                    <p style={{ margin: "0" }}>{testimonial.position}</p>
-                  </div>
-                  <div>
-                    <Image
-                      src={testimonial.image}
-                      width={60}
-                      height={60}
-                      className={styles.image}
-                    />
-                  </div>
+          {testimonials.map((testimonial, index) => (
+            <Col
+              key={index}
+              xl={7}
+              lg={7}
+              className={styles.testimonial_single}
+            >
+              <p className={styles.testimonial_icon}></p>
+              <p className={styles.description}>{testimonial.description}</p>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <div>
+                  <span className={styles.name}>{testimonial.name}</span>
+                  <p style={{ margin: "0" }}>{testimonial.position}</p>
                 </div>
-              </Col>
-            </>
+                <div>
+                  <Image
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    width={60}
+                    height={60}
+                    className={styles.image}
+                  />
+                </div>
+              </div>
+            </Col>
           ))}
         </Row>
 

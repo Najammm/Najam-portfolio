@@ -79,6 +79,7 @@ function Project() {
                   <Image
                     className={styles.projects_img}
                     src={project.projectImage}
+                    alt={project.name}
                     style={{
                       width: "100%",
                       height: "200px",

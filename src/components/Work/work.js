@@ -56,6 +56,7 @@ function Work() {
               <TimelineDot>
                 <Image
                   src={Work1}
+                  alt="Work Experience"
                   style={{
                     width: "50px",
                     height: "50px",

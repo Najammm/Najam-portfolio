@@ -18,7 +18,11 @@ function Background() {
           and full stack
           <span style={{ color: "#273DBC" }}> Web Applications</span>
         </p>
-        <Image src={Computer} style={{ width: "100%", height: "auto" }} />
+        <Image
+          src={Computer}
+          alt="Computer"
+          style={{ width: "100%", height: "auto" }}
+        />
       </div>
     </div>
   );
