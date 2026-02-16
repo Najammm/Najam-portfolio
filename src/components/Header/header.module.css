@@ -4,7 +4,9 @@
   top: 0;
   left: 0;
   z-index: 9;
-  transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
+  transition:
+    background-color 0.3s ease-in-out,
+    padding 0.3s ease-in-out;
 }
 
 .header_back {
@@ -72,7 +74,7 @@
 @media (max-width: 430px) {
   .header_main {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .logo {
     display: none;
